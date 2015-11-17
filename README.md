@@ -23,10 +23,9 @@ accepts these credentials and calls `done` providing a user, as well as
 `options` specifying an app ID, app secret, callback URL.
 
     passport.use(new InBankStrategy({
-        clientID: FACEBOOK_APP_ID,
-        clientSecret: FACEBOOK_APP_SECRET,
-        callbackURL: "http://localhost:3000/auth/inbank/callback",
-        enableProof: false
+        clientID: INBANK_APP_ID,
+        clientSecret: INBANK_APP_SECRET,
+        callbackURL: "http://localhost:3000/auth/inbank/callback"
       },
       function(accessToken, refreshToken, profile, done) {
         User.findOrCreate({ inbankId: uuid.v4() }, function (err, user) {
@@ -70,4 +69,4 @@ For a complete, working example, refer to the [login example](https://github.com
 
 [The MIT License](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2015 Reza Ghorbani Farid <[http://rghorbani.ir/](http://rghorbani.ir/)>
+Copyright (c) 2015 Reza Ghorbani Farid <[http://rghorbani.ir](http://rghorbani.ir)>
