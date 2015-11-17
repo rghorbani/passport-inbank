@@ -54,7 +54,7 @@ application:
 
 ## Examples
 
-For a complete, working example, refer to the [login example](https://github.com/jaredhanson/passport-facebook/tree/master/examples/login).
+For a complete, working example, refer to the [login example](https://github.com/rghorbani/passport-inbank/tree/master/examples/login).
 
 ## Tests
 
