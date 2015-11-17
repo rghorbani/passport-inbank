@@ -1,10 +1,11 @@
 {
 	"name": "passport-inbank",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "In-Bank authentication strategy for Passport.",
 	"keywords": [
 		"passport",
-		"facebook",
+		"inbank",
+		"in-bank",
 		"auth",
 		"authn",
 		"authentication",
